@@ -62,7 +62,7 @@ guessBtn.addEventListener("click", function () {
         guessesLeft.textContent = `Game Over!`;
         gameDiv.style.backgroundColor = black;
   }
-
+//Fusk-knapp som visas när man anger 666
   if (userGuess == 666) {
     const tryAgainElement = document.createElement('button');
     tryAgainElement.textContent = `Hellraiser!`;
